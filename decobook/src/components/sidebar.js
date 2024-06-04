@@ -1,18 +1,17 @@
 import React from 'react';
-import { FaHome, FaUser, FaCog } from 'react-icons/fa';
-import './sidebar.css';
+import './components.css';
+import houseIcon from '../assets/icons/house.svg';
+import notebookIcon from '../assets/icons/notebook.svg';
+import uploadIcon from '../assets/icons/upload.svg';
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="sidebar-icon">
-                <FaHome />
+                <img src={houseIcon}/>
             </div>
             <div className="sidebar-icon">
-                <FaUser />
-            </div>
-            <div className="sidebar-icon">
-                <FaCog />
+                <img src={notebookIcon}/>
             </div>
         </div>
     );

@@ -1,0 +1,93 @@
+.sidebar {
+    height: 100vh;
+    width: 7%;
+    background-color: #ADC178;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar-icon {
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.sidebar-icon:hover {
+    color: #ff6347;
+}
+
+.Welcome {
+    background-image: url('../assets/images/welcome_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+  
+#greenBook {
+    width: 25%;
+    height: auto;
+    margin: 5% auto 5% auto;
+    padding-bottom: 4%;
+}
+
+.bookHeader {
+    background-color: white;
+    border-radius: 20px;
+    height: 17%;
+    width: 15%;
+    top: 25%;
+    left: 43%;
+    position: absolute;
+    z-index: 2;
+
+    h1 {
+        font-size: 1.7em;
+    }
+}
+
+.bookButton {
+    width: 15%;
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 43%;
+    background-color: #F0EAD2;
+    border-radius: 40px;
+    border: none;
+    min-height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bookshelf {
+    padding: 2% 8% auto auto;
+    width: 90%;
+}
+.shelfRow {
+    height: 40%;
+    border-bottom: 1.5rem solid #6C584C;
+    display: grid;
+    margin-left: 20%;
+    padding-left: 0%;
+    padding-top: 3%;
+    grid-template-columns: auto auto auto;
+}
+
+.shelf_object {
+    padding: 0px 10% 0px 0px;
+    min-width: 220px;
+    justify-content: center;
+
+    .object_name {
+        position: relative;
+        z-index: 5;
+        width: 50%;
+        margin: auto;
+        font-size: 24px;
+    }
+}
