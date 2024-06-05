@@ -1,6 +1,5 @@
 import './components.css';
 import greenBook from '../assets/images/green_book.png';
-import { useNavigate } from "react-router-dom";
 import Shelf_Object from './Shelf_Object.js';
 import book1 from "../assets/images/book1.png";
 import book2 from "../assets/images/book2.png";
@@ -11,6 +10,7 @@ import blank from "../assets/images/blank_object.png";
 
 
 function Bookshelf() {
+
   const objects = [
     {
         name: "Journal 1",

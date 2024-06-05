@@ -91,3 +91,28 @@
         font-size: 24px;
     }
 }
+
+.TopNav {
+    height: 7%;
+    width: 100%;
+    background-color: #ADC178;
+    display: inline-block;
+    text-align: center;
+
+    img {
+        height: 67px;
+        width: auto;
+        cursor: pointer;
+    }
+    #home {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    #upload {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+    }
+}
