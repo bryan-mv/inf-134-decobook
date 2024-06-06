@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MyBook from './components/MyBook.js';
 import Welcome from './components/Welcome.js';
 import Home from './components/Home.js';
 import Layout from './components/Layout.js';
