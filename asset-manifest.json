@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/decobook/static/css/main.7e9946ae.css",
+    "main.js": "/decobook/static/js/main.8f335d9b.js",
+    "static/js/453.94d6a7ab.chunk.js": "/decobook/static/js/453.94d6a7ab.chunk.js",
+    "static/media/welcome_bg.png": "/decobook/static/media/welcome_bg.03e248ce879c1cf56505.png",
+    "static/media/green_book.png": "/decobook/static/media/green_book.110bb9c9d265328accdb.png",
+    "static/media/blank_object.png": "/decobook/static/media/blank_object.9bec81d0790ed6e3206a.png",
+    "static/media/polaroid.png": "/decobook/static/media/polaroid.02e6876a3d15eb5c22bf.png",
+    "static/media/notebook.svg": "/decobook/static/media/notebook.fcc9c8172933345753ee34df6744ad13.svg",
+    "static/media/logo.svg": "/decobook/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/house.svg": "/decobook/static/media/house.9b3a5ebc69f295a9900cb6db561ca50a.svg",
+    "static/media/upload.svg": "/decobook/static/media/upload.cf8cc724742efcd198f9232bd4a7f0dd.svg",
+    "index.html": "/decobook/index.html",
+    "static/media/bottle.svg": "/decobook/static/media/bottle.bbc9e33aa3aa4bfa7b27c8647fc86944.svg",
+    "main.7e9946ae.css.map": "/decobook/static/css/main.7e9946ae.css.map",
+    "main.8f335d9b.js.map": "/decobook/static/js/main.8f335d9b.js.map",
+    "453.94d6a7ab.chunk.js.map": "/decobook/static/js/453.94d6a7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e9946ae.css",
+    "static/js/main.8f335d9b.js"
+  ]
+}
