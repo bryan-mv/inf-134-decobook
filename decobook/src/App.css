@@ -1,5 +1,7 @@
 .App {
   background-color: #F0EAD2;
+  min-height: 100vh;
+  overflow: hidden !important;
 }
 
 .App-logo {

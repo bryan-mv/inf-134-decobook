@@ -5,7 +5,7 @@ import './journal.css';
 const Journal = ({ pages, backgroundImage }) => {
     return (
         <div className="journal">
-            <HTMLFlipBook width={500} height={672} className="flipbook">
+            <HTMLFlipBook width={470} height={575} className="flipbook">
                 {pages.map((page, index) => (
                     <div key={index} className="page" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
                         <div className="page-content">

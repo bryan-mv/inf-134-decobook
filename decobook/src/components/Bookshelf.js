@@ -1,4 +1,5 @@
 import './components.css';
+import React, { useState } from 'react';
 import greenBook from '../assets/images/green_book.png';
 import Shelf_Object from './Shelf_Object.js';
 import book1 from "../assets/images/book1.png";
@@ -10,6 +11,10 @@ import blank from "../assets/images/blank_object.png";
 
 
 function Bookshelf() {
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
 
   const objects = [
     {
@@ -60,11 +65,17 @@ function Bookshelf() {
                 key={idx} 
                 name={item.name} 
                 obj_type={item.obj_type}
-                imgUrl={item.imgUrl} />
+                imgUrl={item.imgUrl} 
+                newObject={handleOpen}/>
             </div>
           ))}
         </div>
       ))}
+      { open ? <div className="addObjectModal">
+        <span>Add Journal</span>
+        <span>Add Bottle</span>
+        <span>Add Photocard</span>
+      </div> : null }
     </div>
   );
 }
