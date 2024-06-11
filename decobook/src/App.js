@@ -13,7 +13,7 @@ function App() {
         <MyBook/> */}
         <BrowserRouter>
         <Routes>
-            <Route path="viewing" element={<Layout />} />
+            <Route path="viewing/:type" element={<Layout />} />
             <Route path="home" element={<Home />} />
             <Route path="/" element={<Welcome />} />
             <Route path="collection" element={collectionView()} />

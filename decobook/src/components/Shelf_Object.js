@@ -6,7 +6,15 @@ const Shelf_Object = ({name, obj_type, imgUrl, newObject}) => {
     const navigate = useNavigate();
     const viewBook = () => {
         if (obj_type != "Add") {
-            navigate("/viewing");
+            if (obj_type == "Journal") {
+                navigate("/viewing/journal");
+            }
+            else if (obj_type == "Bottle") {
+                navigate("/viewing/bottle");
+            }
+            else {
+                navigate("/viewing/polaroid");
+            }
         } else {
            newObject();
         }

@@ -136,12 +136,11 @@
 .sticker_book {
     position: absolute;
     top: 6%;
-    left: 25%;
+    left: 15%;
     z-index: 10;
-    .bg_img {
-        width: 80%;
-        height: auto;
-    }
+    background-image: url('../assets/images/sticker_book.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     .sticker_book_header {
         position: absolute;
         top: 12%;
@@ -190,4 +189,12 @@
         font-size: 30px;
         cursor: pointer;
     }
+}
+
+.sticker_grid {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px 60px 60px 60px;
 }

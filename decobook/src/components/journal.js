@@ -9,7 +9,7 @@ const Journal = ({ pages, backgroundImage }) => {
                 {pages.map((page, index) => (
                     <div key={index} className="page" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
                         <div className="page-content">
-                            <p>{page}</p>
+                            <h2 className="page_title">New_Page{index + 1}</h2>
                         </div>
                     </div>
                 ))}

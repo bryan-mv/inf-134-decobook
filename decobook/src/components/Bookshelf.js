@@ -34,7 +34,7 @@ function Bookshelf() {
     },
     {
       name: "Bottle 1",
-      obj_type: "Object",
+      obj_type: "Bottle",
       imgUrl: bottle,
   },
   {
