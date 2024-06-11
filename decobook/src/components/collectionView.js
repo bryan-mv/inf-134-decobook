@@ -9,6 +9,7 @@ import image4 from '../assets/images/image4.png'
 import image5 from '../assets/images/image5.png'
 import image6 from '../assets/images/image6.png'
 import image7 from '../assets/images/image7.png'
+import index_card from '../assets/images/index_card.png'
 
 function collectionView() {
     const images = [
@@ -22,11 +23,12 @@ function collectionView() {
     ];
 
     const backgroundImage = stickerBook;
+    const modalBackgroundImage = index_card
 
     return (
         <div className="Layout">
             <TopNav title={"Sticker Collection"}/>
-            <Collection images={images} backgroundImage={backgroundImage}/>
+            <Collection images={images} backgroundImage={backgroundImage} modalBackgroundImage={modalBackgroundImage}/>
         </div>
     );
 }
