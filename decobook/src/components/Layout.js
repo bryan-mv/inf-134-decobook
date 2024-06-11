@@ -5,7 +5,7 @@ import PageView from './PageView.js';
 function Layout() {
   return (
     <div className="Layout">
-        <TopNav />
+        <TopNav title={"Viewing Book 1"}/>
         <PageView />
     </div>
   );
