@@ -9,11 +9,15 @@ const TopNav = ({title}) => {
     const goHome = () => {
         navigate("/home");
     }
+    const upload = () => {
+        const currentPath = window.location.pathname;
+        navigate(`${currentPath}/upload`);
+    }
     return (
         <div className="TopNav">
             <img id="home" onClick={goHome} src={houseIcon}/>
             <h1 id="title">{title}</h1>
-            <img id="upload" src={uploadIcon}/>
+            <img id="upload" src={uploadIcon} onClick={upload}/>
         </div>
     );
 };

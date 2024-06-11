@@ -198,3 +198,75 @@
     gap: 10px;
     padding: 30px 60px 60px 60px;
 }
+
+.Bottle {
+    width: 20%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.Polaroid {
+    background-color: white;
+    width: 527px;
+    height: 624px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .polaroid_img {
+        width: 470px;
+        height: 470px;
+        margin: 30px;
+    }
+}
+
+.upload_book {
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    z-index: 10;
+    background-image: url('../assets/images/sticker_book.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    .sticker_book_header {
+        position: absolute;
+        top: 12%;
+        left: 4%;
+        display: inline-block;
+        #sticker_book_header_title{
+            display: inline-block;
+            padding-left: 20px;
+        }
+        #back_button {
+            max-width: 40px;
+            cursor: pointer;
+        }
+    }
+    .upload_box {
+        border: 10px dashed #ADC178;
+        background: #FBFFEA;
+        margin-top: 150px;
+        margin-left: 50px;
+        width: 605px;
+        height: 350px;
+        .upload_large_icon {
+            width: 200px;
+            height: 200px;
+            margin-top: 5%;
+            margin-left: 35%;
+            display: block;
+        }
+        button {
+            width: 250px;
+            height: 55px;
+            background: #ADC178;
+            color: black;
+            margin: 20px 40% auto 30%;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
