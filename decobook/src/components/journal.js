@@ -1,6 +1,7 @@
 import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import './journal.css';
+import sticker_group from '../assets/images/sticker_group.png';
 
 const Journal = ({ pages, backgroundImage }) => {
     return (
@@ -10,6 +11,7 @@ const Journal = ({ pages, backgroundImage }) => {
                     <div key={index} className="page" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
                         <div className="page-content">
                             <h2 className="page_title">New_Page{index + 1}</h2>
+                            <img src={sticker_group} className="sticker_group"></img>
                         </div>
                     </div>
                 ))}

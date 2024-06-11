@@ -6,7 +6,7 @@ import book1 from "../assets/images/book1.png";
 import book2 from "../assets/images/book2.png";
 import book3 from "../assets/images/book3.png";
 import polaroid from "../assets/images/polaroid.png";
-import bottle from "../assets/images/bottle.svg";
+import bottle from "../assets/images/bottle.png";
 import blank from "../assets/images/blank_object.png";
 
 

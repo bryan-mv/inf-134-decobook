@@ -17,7 +17,7 @@ function Layout() {
 
   return (
     <div className="Layout">
-        { type == "journal" ? <div><TopNav title={"Viewing Book 1"}/><PageView /></div> : null }
+        { type == "journal" ? <div><TopNav title={"Viewing Journal"}/><PageView /></div> : null }
         { type == "bottle" ? <div><TopNav title={"Viewing Bottle"}/><Bottle /></div> : null }
         { type == "polaroid" ? <div><TopNav title={"Viewing Polaroid"}/><Polaroid /></div> : null }
         <div className="addSticker" onClick={handleOpen}>
