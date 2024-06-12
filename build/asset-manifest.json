@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/inf-134-decobook/static/css/main.3b77d42f.css",
+    "main.js": "/inf-134-decobook/static/js/main.f38409f9.js",
+    "static/js/453.94d6a7ab.chunk.js": "/inf-134-decobook/static/js/453.94d6a7ab.chunk.js",
+    "static/media/mr_smart.png": "/inf-134-decobook/static/media/mr_smart.319332e9b13f5c45bd14.png",
+    "static/media/decorated_bottle.png": "/inf-134-decobook/static/media/decorated_bottle.d06263fe90cef1485069.png",
+    "static/media/welcome_bg.png": "/inf-134-decobook/static/media/welcome_bg.03e248ce879c1cf56505.png",
+    "static/media/sticker_group.png": "/inf-134-decobook/static/media/sticker_group.8259d08486c051d7a516.png",
+    "static/media/green_book.png": "/inf-134-decobook/static/media/green_book.110bb9c9d265328accdb.png",
+    "static/media/sticker_component.png": "/inf-134-decobook/static/media/sticker_component.a07182df3b2b3459825b.png",
+    "static/media/blank_object.png": "/inf-134-decobook/static/media/blank_object.9bec81d0790ed6e3206a.png",
+    "static/media/polaroid.png": "/inf-134-decobook/static/media/polaroid.02e6876a3d15eb5c22bf.png",
+    "static/media/sticker_book.png": "/inf-134-decobook/static/media/sticker_book.70e5443bbb9c03bdcd88.png",
+    "static/media/image1.png": "/inf-134-decobook/static/media/image1.e0d12d9b2fbcfdcbc544.png",
+    "static/media/image2.png": "/inf-134-decobook/static/media/image2.471e593fc7c9415b39a4.png",
+    "static/media/index_card.png": "/inf-134-decobook/static/media/index_card.28866d83bc0a366754eb.png",
+    "static/media/bottle.png": "/inf-134-decobook/static/media/bottle.2d6aa143557b2d62cf02.png",
+    "static/media/notebook.svg": "/inf-134-decobook/static/media/notebook.fcc9c8172933345753ee34df6744ad13.svg",
+    "static/media/logo.svg": "/inf-134-decobook/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/house.svg": "/inf-134-decobook/static/media/house.9b3a5ebc69f295a9900cb6db561ca50a.svg",
+    "static/media/upload.svg": "/inf-134-decobook/static/media/upload.cf8cc724742efcd198f9232bd4a7f0dd.svg",
+    "index.html": "/inf-134-decobook/index.html",
+    "main.3b77d42f.css.map": "/inf-134-decobook/static/css/main.3b77d42f.css.map",
+    "main.f38409f9.js.map": "/inf-134-decobook/static/js/main.f38409f9.js.map",
+    "453.94d6a7ab.chunk.js.map": "/inf-134-decobook/static/js/453.94d6a7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b77d42f.css",
+    "static/js/main.f38409f9.js"
+  ]
+}
