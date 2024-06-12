@@ -288,4 +288,10 @@ body {
             font-family: 'Cabin', sans-serif;
         }
     }
+    .sticker {
+        width: 150px;
+        height: auto;
+        cursor: grab;
+        position: absolute;
+    }
 }
