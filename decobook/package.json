@@ -1,8 +1,8 @@
 {
   "name": "decobook",
   "version": "0.1.0",
-  "homepage": "https://bryan-mv.github.io/decobook",
-  "private": true,
+  "homepage": "https://bryan-mv.github.io/inf-134-decobook",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
